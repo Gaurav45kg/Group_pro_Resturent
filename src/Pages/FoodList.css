@@ -1,0 +1,24 @@
+.food_list_intro{
+    text-align: center;
+}
+
+  .food_list_heading {
+    font-weight: 200;
+    font-size: 4rem;
+    color: #111;
+  }
+  .food_list_para{
+        color: #333;
+        font-size: 18px;
+        font-weight: 300;
+  }
+  .food-card-container{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content:center ;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+           
+  }
+  
