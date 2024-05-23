@@ -4,6 +4,9 @@ import Content from "./components/Content/Content";
 import Team from "./components/Content/Team";
 import Features from "./Pages/Features";
 import FoodList from "./Pages/FoodList";
+import AboutUs from "./components/AboutUs/AboutUs";
+import Reservation_Form from "./components/Reservation_Form/Reservation_form";
+
 const App = () => {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
@@ -32,8 +35,7 @@ const App = () => {
         </div>
       </div>
       <div ref={aboutRef} className="section">
-        <h2>About Us Page</h2>
-        <p>Content for the About Us page.</p>
+        <AboutUs />
       </div>
       
       <div ref={servicesRef} className="section" >
@@ -44,8 +46,7 @@ const App = () => {
         <Team />
       </div>
       <div ref={reservationRef} className="section">
-        <h2>Reservation Page</h2>
-        <p>Content for the Reservation page.</p>
+        <Reservation_Form />
       </div>
     </>
   );

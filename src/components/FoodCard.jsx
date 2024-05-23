@@ -12,49 +12,49 @@ import { CardActionArea } from '@mui/material';
 export const FOOD_DATA=[
     {
         "id": 1,
-        "image":"../../public/Food_Items_images/dinner1.jpeg",
+        "image":"../../Food_Items_images/dinner1.jpeg",
         "title": "ROASTED LAMB RUMP",
         "category": "Dinner"
     },
     {
         "id": 2,
-        "image": "../../public/Food_Items_images/dinner2.png",
+        "image": "../../Food_Items_images/dinner2.png",
         "title": "CITRUS CURED SALMON",
         "category": "Dinner"
     },
     {
         "id": 3,
-        "image": "../../public/Food_Items_images/breakfast1.png",
+        "image": "../../Food_Items_images/breakfast1.png",
         "title": "PAN SEARED SEA BASS",
         "category": "Breakfast"
     },
     {
         "id": 4,
-        "image": "../../public/Food_Items_images/dinner3.png",
+        "image": "../../Food_Items_images/dinner3.png",
         "title": "STUFFED STRAWBERRY",
         "category": "Dinner"
     },
     {
         "id": 5,
-        "image": "../../public/Food_Items_images/lunch1.png",
+        "image": "../../Food_Items_images/lunch1.png",
         "title": "BEEF BURGER MEAL",
         "category": "Lunch"
     },
     {
         "id": 6,
-        "image": "../../public/Food_Items_images/dinner4.png",
+        "image": "../../Food_Items_images/dinner4.png",
         "title": "MUSSELS SOUP",
         "category": "Dinner"
     },
     {
         "id": 7,
-        "image": "../../public/Food_Items_images/dinner5.png",
+        "image": "../../Food_Items_images/dinner5.png",
         "title": "ITALIAN SPAGHETTI",
         "category": "Dinner"
     },
     {
         "id": 8,
-        "image": "../../public/Food_Items_images/dinner6.png",
+        "image": "../../Food_Items_images/dinner6.png",
         "title": "GRILLED FISH",
         "category": "Dinner"
     }];
